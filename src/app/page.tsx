@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import ClientJobSection from './ClientJobSection';
 import { supabase } from '../../lib/supabaseClient';
 
+
 export default async function HomePage() {
   // SSR: отримуємо вакансії на сервері
   const { data: jobs } = await supabase.from('jobs').select('*');
