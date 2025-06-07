@@ -5,6 +5,7 @@ type Job = {
   title: string;
   location?: string;
   company?: string;
+  
 };
 
 export default function JobList({ jobs }: { jobs: Job[] }) {
