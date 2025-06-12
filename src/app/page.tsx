@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ClientJobSection from './ClientJobSection';
 import { supabase } from '../../lib/supabaseClient';
+import React from 'react';
 
 
 export default async function HomePage() {

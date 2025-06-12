@@ -1,4 +1,5 @@
 'use client';
+import React from 'react';
 import { useState, useMemo } from 'react';
 import SearchBar from '../components/SearchBar';
 import JobList from '../components/JobList';
